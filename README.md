@@ -1,6 +1,8 @@
 # feature-impact-sweep
 
-An agent skill that checks whether a feature is correct **everywhere** it is read, computed, or shown — not only on the happy path you just built.
+> **Agent Harness** — a cross-cutting impact harness for Cursor and Claude Code.
+
+An **impact-verification harness** that checks whether a feature is correct **everywhere** it is read, computed, or shown — not only on the happy path you just built.
 
 Compatible with **Claude Code** and **Cursor** (both use a `SKILL.md` skill folder).
 
@@ -90,3 +92,16 @@ feature-impact-sweep/
 ├── SKILL.md    # The 7-check sweep + output contract
 └── README.md
 ```
+
+## Agent Harness collection
+
+Part of the **Agent Harness** suite by [@Jayant2907](https://github.com/Jayant2907) — installable skills that wrap structured agent workflows (review harnesses, QA harnesses, impact sweeps) for Cursor and Claude Code.
+
+| Harness | Role |
+|---|---|
+| [adversarial-review](https://github.com/Jayant2907/adversarial-review) | Merge-review harness |
+| [p-code-review](https://github.com/Jayant2907/p-code-review) | Whole-codebase review harness |
+| [feature-impact-sweep](https://github.com/Jayant2907/feature-impact-sweep) | Cross-cutting impact harness (this repo) |
+| [j-QA](https://github.com/Jayant2907/j-QA) | Manual UI QA harness |
+| [j-user-readiness](https://github.com/Jayant2907/j-user-readiness) | Visual demo-readiness harness |
+| [j-module-audit](https://github.com/Jayant2907/j-module-audit) | Field-level module audit harness |
